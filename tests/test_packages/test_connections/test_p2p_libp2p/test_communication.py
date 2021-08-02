@@ -17,6 +17,7 @@
 #
 # ------------------------------------------------------------------------------
 """This test module contains tests for P2PLibp2p connection."""
+from copy import copy
 import asyncio
 import os
 import shutil
@@ -40,6 +41,7 @@ from tests.conftest import (
     _make_libp2p_connection,
     libp2p_log_on_failure,
     libp2p_log_on_failure_all,
+    _make_libp2p_client_connection,
 )
 
 
